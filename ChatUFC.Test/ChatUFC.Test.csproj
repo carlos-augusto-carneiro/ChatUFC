@@ -17,6 +17,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ChatUFC.Application\ChatUFC.Application.csproj" />
+    <ProjectReference Include="..\ChatUFC.Domain\ChatUFC.Domain.csproj" />
+    <ProjectReference Include="..\ChatUFC.MVC\ChatUFC.MVC.csproj" />
+    <ProjectReference Include="..\ChatUFC.Persistence\ChatUFC.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 
